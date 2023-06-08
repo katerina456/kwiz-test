@@ -1,0 +1,23 @@
+@media screen and (max-width: 542px) {
+    main {
+        padding: 20px;
+    }
+    h1 {
+        width: auto;
+    }
+    .content {
+        .content-box {
+            display: none;
+        }
+        .step {
+            max-width: fit-content;
+            .step-block-item {
+                width: 42px;
+            }
+        }
+    }
+    .button-box {
+        gap: 0;
+        justify-content: space-around;
+    }
+}

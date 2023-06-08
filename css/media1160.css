@@ -1,0 +1,35 @@
+@media screen and (max-width: 1160px) {
+  .content .advice {
+    display: none;
+  }
+  .content .step {
+    max-width: 400px;
+  }
+  .content .step .step-check {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content .step .step-check-item img {
+    max-width: 150px;
+  }
+  .content .step h2 {
+    font-size: 22px;
+  }
+  .content .custom-radio-right > span::before {
+    top: 30px;
+    left: 134px;
+  }
+  main {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(42, 49, 53, 0.12);
+    border-radius: 10px;
+    padding: 50px;
+  }
+  main .layout {
+    display: none;
+  }
+  h1 {
+    width: 724px;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 414px) {
+  .button-box {
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content .step .step-block-item {
+    width: 26px;
+  }
+  .content .step .step-column-item {
+    width: auto;
+  }
+}
